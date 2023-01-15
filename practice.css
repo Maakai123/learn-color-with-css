@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    height:100vh;
+    background:linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 40%;
+    padding:20px;
+    background-color: rgb(255,255, 255);
+    margin: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);
+    border-radius: 10px;
+   
+}
+
+.markerred{
+    width: 200px;
+    height: 25px;
+    box-shadow: 0 0 20px 0 red;
+    background: linear-gradient(180deg, rgb(122, 74,14), rgb(245,62,133), rgb(162, 27, 27));
+    margin: 10px auto;
+}
+
+.markergreen {
+    width: 200px;
+    height: 25px;
+    box-shadow: 0 0 20px 0 green;
+    background: linear-gradient(180deg, #55680D, #71F53E,#116C31);
+    margin: 10px auto;
+}
+
+.markerblue{
+    width: 200px;
+    height: 25px;
+    box-shadow: 0 0 20px 0 blue;
+    margin: 10px auto;
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%,42%));
+}
+
+.markergold{
+    width: 200px;
+    height: 25px;
+    box-shadow: 0 0 20px 0 gold;
+    margin: 10px auto;
+    background: linear-gradient(180deg, rgb(235, 209, 151),rgb(180,136,17),rgb(162,121,13))
+}
+
+.markerpink{
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+    box-shadow: 0 0 20px 0 pink;
+    background: linear-gradient(180deg, #ffccd5, #ff8da1, #ff748c);
+}
+
+.sleeve{
+ width:110px;
+ height: 25px;
+ background-color: white;
+ background-color: rgba(255,255,255, 0.5);
+ border-left: 10px double  rgba(0,0,0,0.75)
+}
+
+.cap{
+    width: 60px;
+    height: 25px;  
+}
+
+.cap, .sleeve {
+    display:inline-block;
+}
